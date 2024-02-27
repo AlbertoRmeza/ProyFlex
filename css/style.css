@@ -48,23 +48,7 @@ h1, h2, h3 {
 main {
     width: 1020px;
 }
-.grupo1 {
-    margin-top:10px;
-    margin-right: 45px;
-    margin-bottom: 10px;
-    margin-left: 100px; 
-    padding: 1.5em;
-    border: 1px solid #ccc;
-    border-radius: 0.5em;
-    height: 50vh;
-    
-}
 
-.grupo1::after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
 .prod-img {
     width: 65%;
@@ -84,18 +68,36 @@ main {
     font-size: 26px;
 }
 
-.grupo2 {
+.grupo1 {
     display:flex;
-    justify-content: space-around;
+    flex-flow: column wrap;
+    justify-content: center;
 }
-
 .grupo1 {
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 20px;
+    padding: 2px;
     text-align: center;
-    width: 1250px;
+    width: 800px;
 }
+.grupo1 {
+    margin-top:10px;
+    margin-right: 45px;
+    margin-bottom: 10px;
+    margin-left: 0px; 
+    /* padding: 1.5em; */
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    height: 50vh;
+    
+}
+
+.grupo2 {
+    display:flex;
+    justify-content: center;
+}
+
+
 
 .grupo2-img {
     max-width: 100%;
@@ -104,9 +106,15 @@ main {
 
 .grupo3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-
+.producto2 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
 .producto3 {
     border: 1px solid #ccc;
     border-radius: 8px;
