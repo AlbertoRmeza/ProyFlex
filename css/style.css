@@ -97,15 +97,15 @@ main {
     justify-content: center;
 }
 .producto1 {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    /* border: 1px solid blue;
+    border-radius: 8px; */
     padding: 20px;
     text-align: center;
     width: 400px;
 }
 .producto3 , .producto2 {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    /* border: 1px solid blue;
+    border-radius: 8px; */
     padding: 20px;
     text-align: center;
     width: 400px;
@@ -118,11 +118,20 @@ main {
 
 .categorias {
     display: flex;
+    
+}
+.catfoot {
+    display: flex;
+}
+.catef {
+    padding: 20px;
+    text-align: center;
+    width: 400px;
 }
 
 .categoria {
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    /* border: 1px solid #ccc;
+    border-radius: 8px; */
     padding: 20px;
     text-align: center;
     width: 400px;
@@ -137,10 +146,10 @@ main {
   color: #037BC0;
 }
 
+#derechos{
+    text-align: center;
+}
 
 /*Media Query*/
 
-/** Reescribir colores */
-
-/** Productos */
 
