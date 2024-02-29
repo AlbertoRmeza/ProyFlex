@@ -151,5 +151,10 @@ main {
 }
 
 /*Media Query*/
+@media all and (max-width: 800px){
+    #grupo1, #grupo2, #grupo3  {
+        flex-direction: column;
+    }
 
+}
 
