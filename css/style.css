@@ -58,7 +58,6 @@ main {
 
 .grupo1 {
     display:flex;
-    /* flex-flow: column wrap; */
     justify-content: center;
 }
 
